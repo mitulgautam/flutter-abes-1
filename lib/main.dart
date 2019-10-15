@@ -28,13 +28,13 @@ class _AppState extends State<App> {
           children: <Widget>[
             _card(
                 'Class 1',
-                'Material App, Scaffold',
+                'Material App, Scaffold, Floating Action Button, Button: onPressed, Calculator',
                 Colors.pink,
                 () => Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) => ClassOne()))),
             _card(
                 'Class 2',
-                'Floating Action Button, Button: onPressed, Calculator',
+                'Rows, Columns, Images(Network, Assets), Stack',
                 Colors.orange,
                 () => Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) => ClassTwo()))),
@@ -103,10 +103,14 @@ class _AppState extends State<App> {
                           text,
                           style: TextStyle(color: Colors.white, fontSize: 32.0),
                         ),
-                        Text(
-                          subContent,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 16.0, color: Colors.white),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            subContent,
+                            textAlign: TextAlign.center,
+                            style:
+                                TextStyle(fontSize: 16.0, color: Colors.white),
+                          ),
                         )
                       ],
                     ),
