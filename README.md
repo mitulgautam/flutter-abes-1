@@ -3,7 +3,7 @@
 
 
 * ## Dashboard View<br/>
-<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220156.png" width="256"><br/>
+<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220156.png" width="256em">
 
 <img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220160.png" height="300em" /><img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220165.png" height="300em" /> <img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220170.png" height="300em"/>
 
