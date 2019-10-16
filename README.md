@@ -3,15 +3,11 @@
 
 * ## Dashboard View<br/>
 <img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220156.png" width="256"><br/>
-* ## Class 1<br/>
+* ## Class 1                             Class 2                            Class 3<br/>
 
-<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220160.png" width="256"><br/>
+<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220160.png" width="256">
 
-* ## Class 2<br/>
-
-<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220165.png" width="256"><br/>
-
-* ## Class 3<br/>
+<img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220165.png" width="256">
 
 <img src="https://raw.githubusercontent.com/mitulgautam/flutter-abes-1/master/sample_shots/Screenshot_1571220170.png" width="256"><br/>
 
