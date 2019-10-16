@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_batch_1/class_one.dart';
 import 'package:flutter_batch_1/class_two.dart';
+import 'class_three.dart';
 
-void main() => runApp(MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Batch 1 - Code Infinity',
-      theme: ThemeData(primarySwatch: Colors.pink),
-      home: App(),
-    ));
+void main() => runApp(
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter Batch 1 - Code Infinity',
+        theme: ThemeData(primarySwatch: Colors.pink),
+        home: App(),
+      ),
+    );
 
 class App extends StatefulWidget {
   @override
@@ -38,6 +41,12 @@ class _AppState extends State<App> {
                 Colors.orange,
                 () => Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) => ClassTwo()))),
+            _card(
+                'Class 3',
+                'List View, List View.builder',
+                Colors.blue,
+                () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ClassThree()))),
           ],
         ),
       )),
