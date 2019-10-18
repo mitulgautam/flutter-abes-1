@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_batch_1/ClassFour.dart';
 import 'package:flutter_batch_1/class_one.dart';
 import 'package:flutter_batch_1/class_two.dart';
 import 'class_three.dart';
@@ -47,6 +48,12 @@ class _AppState extends State<App> {
                 Colors.blue,
                 () => Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => ClassThree()))),
+            _card(
+                'Class 4',
+                'Stack, Navigator',
+                Colors.green,
+                () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ClassFour()))),
           ],
         ),
       )),
